@@ -17,9 +17,9 @@
         "files": ["Configure/configure_function.php"]
     },
     "scripts": {
-        "post-package-install": [
-            "cp -r -d sample/config config",
-            "cp -r sample/configure.json configure.json')"
+        "configure-init": [
+            "cp -r -d vendor/hamoda-dev/configure/sample/config config",
+            "cp -r vendor/hamoda-dev/configure/sample/configure.json configure.json"
         ]
     }
 }

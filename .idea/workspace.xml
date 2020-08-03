@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60ca6c3b-1961-487d-b29e-bf71adf205c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1fM74Ltuq0TPVisz0NDTBsG2uFw" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/laravel_workspace/learn_it" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Configure/sample" />
+      <recent name="$PROJECT_DIR$/Configure/sample/config/production" />
+      <recent name="$PROJECT_DIR$/Configure/sample/config/development" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/t" />
+      <recent name="$PROJECT_DIR$/Example/conf/developement" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Composer Script.configure-init">
+    <configuration name="configure-init" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="configure-init" />
+      <method v="2" />
+    </configuration>
+    <configuration name="post-create-project-cmd" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="post-create-project-cmd" />
+      <method v="2" />
+    </configuration>
+    <configuration name="post-install-cmd" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="post-install-cmd" />
+      <method v="2" />
+    </configuration>
+    <configuration name="post-package-install" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="post-package-install" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="test" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Composer Script.configure-init" />
+        <item itemvalue="Composer Script.post-create-project-cmd" />
+        <item itemvalue="Composer Script.test" />
+        <item itemvalue="Composer Script.post-package-install" />
+        <item itemvalue="Composer Script.post-install-cmd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60ca6c3b-1961-487d-b29e-bf71adf205c6" name="Default Changelist" comment="" />
+      <created>1596015915285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596015915285</updated>
+      <workItem from="1596015917200" duration="15411000" />
+      <workItem from="1596042229020" duration="49000" />
+      <workItem from="1596163960282" duration="1903000" />
+      <workItem from="1596195382837" duration="190000" />
+      <workItem from="1596195880030" duration="90000" />
+      <workItem from="1596373120760" duration="2225000" />
+      <workItem from="1596375885264" duration="1086000" />
+      <workItem from="1596378289325" duration="3132000" />
+      <workItem from="1596397392294" duration="446000" />
+      <workItem from="1596397922910" duration="8781000" />
+      <workItem from="1596432628455" duration="937000" />
+      <workItem from="1596433757346" duration="9575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1579" y="186" width="588" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596373145330">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1579" y="186" width="588" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596373145330" />
+    <state x="1611" y="298" width="523" height="178" key="ComposerInitDialogKey" timestamp="1596439344991">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1611" y="298" width="523" height="178" key="ComposerInitDialogKey/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596439344991" />
+    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596446248927">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446248927" />
+    <state x="394" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.691@0.27.1366.691" timestamp="1596195967060" />
+    <state width="978" height="181" key="GridCell.Tab.0.bottom" timestamp="1596446252115">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state width="978" height="181" key="GridCell.Tab.0.bottom/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
+    <state width="978" height="181" key="GridCell.Tab.0.center" timestamp="1596446252115">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state width="978" height="181" key="GridCell.Tab.0.center/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
+    <state width="978" height="181" key="GridCell.Tab.0.left" timestamp="1596446252115">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state width="978" height="181" key="GridCell.Tab.0.left/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
+    <state width="978" height="181" key="GridCell.Tab.0.right" timestamp="1596446252115">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state width="978" height="181" key="GridCell.Tab.0.right/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
+    <state x="1616" y="103" width="513" height="568" key="NewPhpClassDialog" timestamp="1596019385804">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1616" y="103" width="513" height="568" key="NewPhpClassDialog/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596019385804" />
+    <state x="1673" y="309" width="399" height="156" key="NewPhpFileDialog" timestamp="1596165862044">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1673" y="309" width="399" height="156" key="NewPhpFileDialog/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596165862044" />
+    <state x="1541" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596374578769">
+      <screen x="1366" y="0" width="1024" height="768" />
+    </state>
+    <state x="1541" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596374578769" />
+  </component>
+</project>
