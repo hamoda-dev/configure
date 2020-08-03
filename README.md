@@ -20,7 +20,7 @@ composer require hamoda-dev/configure
             "cp -r -d vendor/hamoda-dev/configure/sample/config config",
             "cp -r vendor/hamoda-dev/configure/sample/configure.json configure.json"
         ]
-    }
+}
 ```
 
 2 - run this command in your project to create config directory & configure.json
@@ -40,7 +40,7 @@ you can switch betwen the environments in the configure.json file
 
 ##### configure.json
 ```
-        {
+{
   "config_path" : "config",
   "environment" : "development"
 }
