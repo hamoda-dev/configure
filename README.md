@@ -38,7 +38,7 @@ containe to directory { development, production }
 
 you can switch betwen the environments in the configure.json file
 
-#####configure.json
+##### configure.json
 ```
         {
   "config_path" : "config",
