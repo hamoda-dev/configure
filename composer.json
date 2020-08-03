@@ -1,0 +1,25 @@
+{
+    "name": "hamoda-dev/configure",
+    "description": "Configuration PHP Library",
+    "type": "libaray",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name" : "Mohammed Hamid Hamoda",
+            "email" : "hamoda.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Configure\\Core\\" : "Configure/Core"
+        },
+        "files": ["Configure/configure_function.php"]
+    },
+    "scripts": {
+        "post-package-install": [
+            "cp -r -d sample/config config",
+            "cp -r sample/configure.json configure.json')"
+        ]
+    }
+}
