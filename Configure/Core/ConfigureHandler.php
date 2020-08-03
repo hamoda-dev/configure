@@ -7,33 +7,33 @@ namespace Configure\Core;
 class ConfigureHandler
 {
     /**
-     * @param $single_conf_path
+     * @param $singleConfPath
      * @return array
      */
-    public static function config_env($single_conf_path)
+    public static function configEnv($singleConfPath)
     {
-        if(is_dir($single_conf_path)){
-            return self::collect_data($single_conf_path);
+        if(is_dir($singleConfPath)){
+            return self::collectData($singleConfPath);
         } else {
             die("Sorry Your Configuration Directory Path Is Not Correct Pleas Solve It");
         }
     }
 
     /**
-     * @param $collect_path
+     * @param $collectPath
      * @return array
      */
-    public static function collect_data($collect_path)
+    public static function collectData($collectPath)
     {
 
-        $files_list = scandir($collect_path);
-        unset($files_list[0]); // unset the . cerrent dir
-        unset($files_list[1]); // unset teh .. up dir
+        $filesList = scandir($collectPath);
+        unset($filesList[0]); // unset the . cerrent dir
+        unset($filesList[1]); // unset teh .. up dir
 
         $data = [];
-        foreach ($files_list as $file)
+        foreach ($filesList as $file)
         {
-            $inf = require_once($collect_path ."/". $file);
+            $inf = require_once($collectPath ."/". $file);
             $data = array_merge($data,$inf);
         }
         return $data;

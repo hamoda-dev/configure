@@ -11,8 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ca6c3b-1961-487d-b29e-bf71adf205c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/configer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configure/Core/Configure.php" beforeDir="false" afterPath="$PROJECT_DIR$/Configure/Core/Configure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configure/Core/ConfigureHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Configure/Core/ConfigureHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configure/configure_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Configure/configureFunction.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/config/development/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/config/development/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/laravel_workspace/learn_it" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -150,6 +158,9 @@
       <workItem from="1596397922910" duration="8781000" />
       <workItem from="1596432628455" duration="937000" />
       <workItem from="1596433757346" duration="9575000" />
+      <workItem from="1596446848503" duration="2648000" />
+      <workItem from="1596464606009" duration="88000" />
+      <workItem from="1596465644826" duration="116000" />
     </task>
     <servers />
   </component>
@@ -177,27 +188,27 @@
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
     <state x="1611" y="298" width="523" height="178" key="ComposerInitDialogKey/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596439344991" />
-    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596446248927">
+    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596464691222">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
-    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446248927" />
+    <state x="1661" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596464691222" />
     <state x="394" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.691@0.27.1366.691" timestamp="1596195967060" />
-    <state width="978" height="181" key="GridCell.Tab.0.bottom" timestamp="1596446252115">
+    <state width="978" height="181" key="GridCell.Tab.0.bottom" timestamp="1596449516479">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
-    <state width="978" height="181" key="GridCell.Tab.0.bottom/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
-    <state width="978" height="181" key="GridCell.Tab.0.center" timestamp="1596446252115">
+    <state width="978" height="181" key="GridCell.Tab.0.bottom/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596449516479" />
+    <state width="978" height="181" key="GridCell.Tab.0.center" timestamp="1596449516479">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
-    <state width="978" height="181" key="GridCell.Tab.0.center/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
-    <state width="978" height="181" key="GridCell.Tab.0.left" timestamp="1596446252115">
+    <state width="978" height="181" key="GridCell.Tab.0.center/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596449516479" />
+    <state width="978" height="181" key="GridCell.Tab.0.left" timestamp="1596449516479">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
-    <state width="978" height="181" key="GridCell.Tab.0.left/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
-    <state width="978" height="181" key="GridCell.Tab.0.right" timestamp="1596446252115">
+    <state width="978" height="181" key="GridCell.Tab.0.left/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596449516479" />
+    <state width="978" height="181" key="GridCell.Tab.0.right" timestamp="1596449516479">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>
-    <state width="978" height="181" key="GridCell.Tab.0.right/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596446252115" />
+    <state width="978" height="181" key="GridCell.Tab.0.right/0.27.1366.691/1366.0.1024.768@1366.0.1024.768" timestamp="1596449516479" />
     <state x="1616" y="103" width="513" height="568" key="NewPhpClassDialog" timestamp="1596019385804">
       <screen x="1366" y="0" width="1024" height="768" />
     </state>

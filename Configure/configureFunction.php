@@ -8,18 +8,18 @@
      */
     function config($config)
     {
-        $env_conf = getConfigureConf();
-        $app_config = new Configure\Core\Configure($env_conf['config_path'], $env_conf['environment']);
+        $envConf = getConfigureConf();
+        $appConfig = new Configure\Core\Configure($envConf['config_path'], $envConf['environment']);
 
-        $app_config = $app_config->getConfigs();
+        $appConfig = $appConfig->getConfigs();
 
-        $user_conf = explode(".",$config);
+        $userConf = explode(".",$config);
 
-        foreach ($user_conf as $bit)
+        foreach ($userConf as $bit)
         {
-            $app_config = $app_config[$bit];
+            $appConfig = $appConfig[$bit];
         }
-        return $app_config;
+        return $appConfig;
     }
 
     /**
@@ -31,8 +31,8 @@
     {
         if(file_exists("configure.json"))
         {
-            $conf_file = file_get_contents("configure.json");
-            return json_decode($conf_file, true);
+            $confFile = file_get_contents("configure.json");
+            return json_decode($confFile, true);
         } else {
             die("configure.json file note exist");
         }

@@ -11,16 +11,16 @@ class Configure extends ConfigureHandler
 
     /**
      * Configure constructor.
-     * @param $config_path
+     * @param $configPath
      * @param null $environment
      */
-    public function __construct($config_path, $environment = null)
+    public function __construct($configPath, $environment = null)
     {
         if($environment)
         {
-            $this->configs = self::config_env($config_path."/".$environment);
+            $this->configs = self::configEnv($configPath."/".$environment);
         } else {
-            $this->configs = self::config_env($config_path);
+            $this->configs = self::configEnv($configPath);
         }
     }
 
