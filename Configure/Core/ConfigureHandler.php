@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Configure\Core;
-
 
 class ConfigureHandler
 {
@@ -12,7 +10,7 @@ class ConfigureHandler
      */
     public static function configEnv($singleConfPath)
     {
-        if(is_dir($singleConfPath)){
+        if (is_dir($singleConfPath)) {
             return self::collectData($singleConfPath);
         } else {
             die("Sorry Your Configuration Directory Path Is Not Correct Pleas Solve It");
@@ -31,10 +29,9 @@ class ConfigureHandler
         unset($filesList[1]); // unset teh .. up dir
 
         $data = [];
-        foreach ($filesList as $file)
-        {
-            $inf = require_once($collectPath ."/". $file);
-            $data = array_merge($data,$inf);
+        foreach ($filesList as $file) {
+            $inf = require_once($collectPath . "/" . $file);
+            $data = array_merge($data, $inf);
         }
         return $data;
     }
