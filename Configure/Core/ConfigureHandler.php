@@ -5,34 +5,60 @@ namespace Configure\Core;
 class ConfigureHandler
 {
     /**
-     * @param $singleConfPath
+     * @param $configurationDirectoryPath
      * @return array
      */
-    public static function configEnv($singleConfPath)
+    public static function configuratinos($configurationDirectoryPath): array
     {
-        if (is_dir($singleConfPath)) {
-            return self::collectData($singleConfPath);
+        // check if $configurationDirectoryPath is Directory
+        if (is_dir($configurationDirectoryPath)) {
+
+            // collect the configurtions
+            return self::collectConfigurtions($configurationDirectoryPath);
         } else {
+
+            // error
             die("Sorry Your Configuration Directory Path Is Not Correct Pleas Solve It");
         }
     }
 
+
+
     /**
-     * @param $collectPath
+     * function to collect all configurtions data
+     * @param string $configurationDirectoryPath
      * @return array
      */
-    public static function collectData($collectPath)
+
+    public static function collectConfigurtions(string $configurationDirectoryPath): array
     {
+        // get all files in configurations directory
+        $configurationFiles = scandir($configurationDirectoryPath);
 
-        $filesList = scandir($collectPath);
-        unset($filesList[0]); // unset the . cerrent dir
-        unset($filesList[1]); // unset teh .. up dir
+        // get the file count in the configurations directory
+        $filesCount = count($configurationFiles);
 
+        unset($configurationFiles[0]); // unset the . current dir
+        unset($configurationFiles[1]); // unset teh .. up dir
+
+        // initializes $data to store the configurations from files
         $data = [];
-        foreach ($filesList as $file) {
-            $inf = require_once($collectPath . "/" . $file);
-            $data = array_merge($data, $inf);
+
+        /**
+         * loop in files to get the configurations data
+         * i start the $i from [2] because i unset the [0] & [1] in previous step
+         */
+        for ($i = 2; $i < $filesCount; $i++) {
+
+            // include files and fetch the configurations and store it in $configurationsData
+            $configurationsData = include("$configurationDirectoryPath/$configurationFiles[$i]");
+
+            // merge all configurations data in $data
+            $data = array_merge($data, $configurationsData);
+
         }
+
         return $data;
     }
+
 }

@@ -1,36 +1,36 @@
 <?php
 
 /**
+ * function to get any configuration value
+ *
  * @param $config
  * @return array|mixed
- *
- * function to get any configuration value
  */
 function config($config)
 {
-    $envConf = getConfigureConf();
-    $appConfig = new Configure\Core\Configure($envConf['config_path'], $envConf['environment']);
+    $envConf = envConfigurations();
+    $appConfigurations = new Configure\Core\Configure($envConf['config_path'], $envConf['environment']);
 
-    $appConfig = $appConfig->getConfigs();
+    $appConfigurations = $appConfigurations->getConfigurations();
 
-    $userConf = explode(".", $config);
+    $neededConfiguration = explode(".", $config);
 
-    foreach ($userConf as $bit) {
-        $appConfig = $appConfig[$bit];
+    foreach ($neededConfiguration as $bit) {
+        $appConfigurations = $appConfigurations[$bit];
     }
-    return $appConfig;
+    return $appConfigurations;
 }
 
 /**
- * @return mixed
- *
  * function to get configurations from configure.json
+ *
+ * @return mixed
  */
-function getConfigureConf()
+function envConfigurations()
 {
     if (file_exists("configure.json")) {
-        $confFile = file_get_contents("configure.json");
-        return json_decode($confFile, true);
+        $envConfigurationFile = file_get_contents("configure.json");
+        return json_decode($envConfigurationFile, true);
     } else {
         die("configure.json file note exist");
     }

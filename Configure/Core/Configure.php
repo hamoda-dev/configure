@@ -7,27 +7,28 @@ class Configure extends ConfigureHandler
     /**
      * @var array
      */
-    private $configs = [];
+    private $configurations = [];
 
     /**
      * Configure constructor.
-     * @param $configPath
+     * @param $configurationDirectoryPath
      * @param null $environment
      */
-    public function __construct($configPath, $environment = null)
+    public function __construct($configurationDirectoryPath, $environment = null)
     {
         if ($environment) {
-            $this->configs = self::configEnv($configPath . "/" . $environment);
+            $this->configurations = self::configuratinos($configurationDirectoryPath . "/" . $environment);
         } else {
-            $this->configs = self::configEnv($configPath);
+            die('Pleas Set Your Environments');
         }
     }
 
     /**
      * @return array
      */
-    public function getConfigs()
+    public function getConfigurations(): array
     {
-        return $this->configs;
+        return $this->configurations;
     }
+
 }
