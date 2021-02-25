@@ -8,21 +8,21 @@ class PhpDotEnv
 {
 
     /**
+     * @var string
+     */
+    private string $confPath = __DIR__ . "/../../../";
+
+    /**
      * @var array
      */
     private array $envVariable;
 
     /**
-     * function handler The Dot Env File And return all
-     *
-     * @param string $envFilePath
-     * @return void
+     * constructer load all config from .env file
      */
-
     public function __construct()
     {
-
-        $dotenv = Dotenv::createMutable("/");
+        $dotenv = Dotenv::createMutable(realpath($this->confPath));
 
         $this->envVariable = $dotenv->load();
     }

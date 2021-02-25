@@ -9,8 +9,8 @@ use Configure\Handler\PhpDotEnv;
  */
 function env(string $envVariable, string | int $default = ""): string | int
 {
-    $PhpDotEnv = new PhpDotEnv();
-    $envValues = $PhpDotEnv->getEnvVariable();
+    $phpDotEnv = new PhpDotEnv();
+    $envValues = $phpDotEnv->getEnvVariable();
 
     if (array_key_exists($envVariable, $envValues)) {
         return $envValues[$envVariable];

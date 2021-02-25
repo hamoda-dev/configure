@@ -19,6 +19,7 @@
         "files": ["src/functions/helper.php"]
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12.78"
+        "phpstan/phpstan": "^0.12.78",
+        "phpunit/phpunit": "^9.5"
     }
 }
